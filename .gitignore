@@ -1,0 +1,12 @@
+# compiled stuff
+build/
+dist/
+out*/
+*.class
+
+# NetBeans private settings
+nbproject/private/
+
+# OS junk
+.DS_Store
+Thumbs.db
