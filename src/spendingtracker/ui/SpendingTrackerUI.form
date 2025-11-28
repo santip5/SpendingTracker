@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="TopPanel" alignment="1" max="32767" attributes="0"/>
+          <Component id="MiddlePanel" alignment="0" max="32767" attributes="0"/>
+          <Component id="BottomPanel" alignment="0" max="32767" attributes="0"/>
+          <Component id="FilterPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="TopPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="FilterPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="MiddlePanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="BottomPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="TopPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="DateLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="DateSpinner" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="AmountLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="AmountField" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="MethodLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="MethodBox" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="TagsField" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="AddButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="TagsLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="67" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="DateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AmountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MethodLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TagsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="AmountField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TagsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AddButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MethodBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="DateSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="DateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date (YYYY-MM-DD)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AmountLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Amount"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="MethodLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Payment Method"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="TagsLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tags"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AmountField">
+          <Properties>
+            <Property name="columns" type="int" value="5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TagsField">
+          <Properties>
+            <Property name="columns" type="int" value="10"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TagsFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="AddButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Add"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="MethodBox">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Debit"/>
+                <StringItem index="1" value="Credit"/>
+                <StringItem index="2" value="Savings"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="DateSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="now" stepSize="5" type="date"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="FilterPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="FromLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="FromSpinner" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="ToLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="ToSpinner" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="FMethodLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="FMethodBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="FTagsLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="FTagsField" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="ClearFilterButton" max="32767" attributes="0"/>
+                      <Component id="ApplyFilterButton" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="FromLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="FromSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ToLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ToSpinner" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="FMethodLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="FMethodBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="FTagsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="FTagsField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ApplyFilterButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="ClearFilterButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="FromLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="From: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="FromSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="now" stepSize="5" type="date"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ToLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="To"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="ToSpinner">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="now" stepSize="5" type="date"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="FMethodLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Method"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="FMethodBox">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Debit"/>
+                <StringItem index="1" value="Credit"/>
+                <StringItem index="2" value="Savings"/>
+                <StringItem index="3" value="Any"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="FTagsLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Including Tags:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="FTagsField">
+          <Properties>
+            <Property name="columns" type="int" value="10"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FTagsFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ApplyFilterButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Apply Filter"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ApplyFilterButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ClearFilterButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Clear Filter"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClearFilterButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="MiddlePanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="ScrollPane" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="ScrollPane" min="-2" pref="411" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="ScrollPane">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="MainTable">
+              <Properties>
+                <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Date" type="java.lang.Object"/>
+                    <Column editable="true" title="Amount" type="java.lang.Object"/>
+                    <Column editable="true" title="Method" type="java.lang.Object"/>
+                    <Column editable="true" title="Tags" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="BottomPanel">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="TotalLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="RemoveButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                  <Component id="SaveButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="LoadButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="RemoveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LoadButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TotalLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="RemoveButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Remove"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RemoveButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="SaveButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Save"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="LoadButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Load"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LoadButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="TotalLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total: $0.00 (0 items)"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
